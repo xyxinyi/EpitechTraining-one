@@ -1,5 +1,6 @@
 #include <unistd.h>
 #include <stdio.h>
+#include"my_isneg.h"
 
 void my_putchar(int c)
 {
@@ -14,11 +15,3 @@ int my_isneg(int n)
 		my_putchar(80);
 	return 0;
 }
-
-int main()
-{
-	my_isneg(2);
-	my_isneg(-2);
-	write(1,"\n",1);
-	return(0);
-	}
