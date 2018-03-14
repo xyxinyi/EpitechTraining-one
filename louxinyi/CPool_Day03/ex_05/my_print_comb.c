@@ -1,10 +1,6 @@
 #include <unistd.h>
-#include"my_isneg.h"
 
 void my_putchar(int c)
-{
-	write(1,&c,1);
-	}
 
 int my_print_comb(void)
 {
@@ -30,14 +26,14 @@ int my_print_comb(void)
 					{
 						my_putchar('\n');
 						continue;
-						}
-					my_putchar(','); 
 					}
+					my_putchar(','); 
+				}
 					else
 						continue;
-				}
 			}
 		}
+	}
 	return 0;
 }
 

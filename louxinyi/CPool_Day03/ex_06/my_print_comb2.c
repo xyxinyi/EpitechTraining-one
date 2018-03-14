@@ -1,10 +1,6 @@
 #include <unistd.h>
-#include"my_print_comb2.h"
 
 void my_putchar(int c)
-{
-	write(1,&c,1);
-	}
 	
 int my_print_comb2(void)
 {
