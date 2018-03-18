@@ -1,7 +1,7 @@
 #include <unistd.h>
 #include <stdio.h>
 
-void my_putchar(int c)
+void my_putchar(int c);
 
 int my_isneg(int n)
 {

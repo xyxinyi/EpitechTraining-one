@@ -1,6 +1,6 @@
 #include <unistd.h>
 
-void my_putchar(int c)
+void my_putchar(int c);
 
 int my_print_digits(void)
 {
