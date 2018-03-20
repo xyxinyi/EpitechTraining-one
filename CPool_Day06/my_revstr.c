@@ -16,12 +16,3 @@ char *my_revstr(char *str)
         }
         return(start);
 }
-
-int main()
-{
-	//char *str1 = "hello";
-	//char *str2 = "world"
-	char str1[] = "hello";
-	//char str2[] = "world";
-	printf("%s\n",my_revstr(str1));
-}

@@ -13,12 +13,3 @@ char *my_strcpy(char *dest, char const *src)
 	return dest;
 }
 
-int main()
-{
-	//char *str1 = "hello";
-	//char *str2 = "world"
-	char str1[] = "hello";
-	char str2[] = "world";
-	printf("%s\n",my_strcpy(str1,str2));
-}
-

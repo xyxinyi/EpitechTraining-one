@@ -1,12 +1,6 @@
 #include <stdio.h>
 
-int my_strlen(const char *s)
-{
-	int len=0;
-	while((*s++)!='\0')
-	len++;
-	return len;
-}
+int my_strlen(const char *s);
 
 int my_str_isupper(char const *str)
 {
@@ -29,12 +23,4 @@ int my_str_isupper(char const *str)
 		}
 	}	
 	return result;
-}
-
-int main()
-{
-	//char *s = NULL;
-	char s[] = "AAAsJHJH";
-	printf("%d",my_str_isupper(s));		
-	return 0;
 }

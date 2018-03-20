@@ -1,12 +1,6 @@
 #include <stdio.h>
 
-int my_strlen(const char *s)
-{
-	int len=0;
-	while((*s++)!='\0')
-	len++;
-	return len;
-}
+int my_strlen(const char *s);
 
 char *my_strlowcase(char *str)
 {
@@ -23,13 +17,4 @@ char *my_strlowcase(char *str)
 	}
 	else
 		return NULL;
-}
-
-
-int main()
-{
-	//char *s = NULL;
-	char s[] = "12,.3aaB5656BBAbc";
-	printf("%s",my_strlowcase(s));		
-	return 0;
 }

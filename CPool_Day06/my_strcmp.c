@@ -29,10 +29,3 @@ int my_strcmp(char const *s1,char const *s2)
 	}
 	return result;
 }
-
-int main()
-{
-	char str1[] = "hello";
-	char str2[] = "world";
-	printf("%d\n",my_strcmp(str1,str2));
-}
