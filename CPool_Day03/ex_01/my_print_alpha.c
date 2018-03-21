@@ -1,11 +1,11 @@
 #include <unistd.h>
 
-void my_putchar(int c);
+int my_putchar(char c);
 
 int my_print_alpha(void)
 {
-	int i;
-	for(i=97;i<=122;i++)
+	char i;
+	for(i='a';i<='z';i++)
 	{
 		my_putchar(i);
 	}

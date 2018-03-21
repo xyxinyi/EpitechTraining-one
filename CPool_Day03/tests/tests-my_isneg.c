@@ -3,6 +3,7 @@
 
 int main()
 {
+	my_isneg(0);
 	my_isneg(2);
 	my_isneg(-2);
 	write(1,"\n",1);
