@@ -10,5 +10,5 @@ int main()
 	my_put_nbr(-894);
 	my_putchar('\n');
 	return(0);
-	}
+}
 
