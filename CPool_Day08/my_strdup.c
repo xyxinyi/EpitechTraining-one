@@ -1,27 +1,9 @@
 #include <stdlib.h>
 #include <stdio.h>
 
-int my_strlen(char const *str)
-{
-	int length = 0;
-	while(*str++ != '\0')
-	{
-		length++;
-	}
-	return length;
-}
+int my_strlen(char const *str);
 
-char *my_strcpy(char *dest, char const *src)
-{
-	char *pdest = dest;
-	char const *psrc = src;
-	while(*psrc != '\0')
-	{
-		*pdest++ = *psrc++;
-	}
-	*pdest = '\0';
-	return dest;
-}
+char *my_strcpy(char *dest, char const *src);
 
 char *my_strdup(char const *src)  
 {  
