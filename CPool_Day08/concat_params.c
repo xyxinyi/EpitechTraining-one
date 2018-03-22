@@ -39,9 +39,3 @@ char *concat_params(int argc, char **argv)
 	return pdest;  
 }    
 
-int main(int ac, char **av)  
-{  
-    my_putstr(concat_params(ac, av));
-    return (EXIT_SUCCESS);
-}  
-
