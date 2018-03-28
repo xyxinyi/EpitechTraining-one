@@ -25,3 +25,8 @@ linked_list_t *my_params_to_list(int ac, char * const *av)
 	}
 	return test_list;
 }
+
+int main(int ac, char **av)
+{
+	my_params_to_list(ac,av);
+}
