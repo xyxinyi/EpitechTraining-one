@@ -1,8 +1,7 @@
 #include <unistd.h>
 #include <stdio.h>
 
-int my_putchar(char c)
+void my_putchar(char c)
 {
-	write(1,&c,1);
-	return 0;
+	write(1, &c, 1);
 }
